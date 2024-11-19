@@ -7,17 +7,17 @@ from msn import *
 
 Usage = \
 (
-'Calculate LDDT for a sequence alignment by comparison with '
+'Calculate LRMSD for a sequence alignment by comparison with '
 'reference structures as average of pair-wise LDDT.'
 )
 
 AP = argparse.ArgumentParser(description = Usage)
 AP.add_argument("--msa", required=True, help="Multiple Sequence Alignment (FASTA format)")
 AP.add_argument("--pdbfiles", required=True, help="Text file with one PDB pathname per line")
-AP.add_argument("--radius", required=False, type=float, default=15.0, help="LDDT inclusion radius (default 15)")
+AP.add_argument("--radius", required=False, type=float, default=15.0, help="LRMSD inclusion radius (default 15)")
 AP.add_argument("--dists", required=False, default="0.5,1,2,4", help="LDDT distance thresholds, comma-separated (default 0.5,1,2,4)")
 AP.add_argument("--symmetry", required=False, choices=[ "first", "both", "either" ], default="first", help="Set R0 according to both / either / first (default first)")
-AP.add_argument("--pairs", action="store_true", help="Report pair-wise LDDTs (default don't show)")
+AP.add_argument("--pairs", action="store_true", help="Report pair-wise LRMSDs (default don't show)")
 Args = AP.parse_args()
 
 msa_fn = Args.msa
