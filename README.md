@@ -13,7 +13,7 @@ Structures which do not match the MSA are ignored. Sequences in the MSA which do
   
   ref.stats:AVERAGE	avg_LDDT=0.8087	avg_LRMSD=1.1567
   
-  megagap.stats:AVERAGE	avg_LDDT=0.7920	avg_LRMSD=1.3453
+  mega.stats:AVERAGE	avg_LDDT=0.7920	avg_LRMSD=1.3453
   
 ## Usage 
 
