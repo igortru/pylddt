@@ -4,7 +4,7 @@ Python scripts to calculate DALI Z score and LDDT from a test Multiple Sequence 
 Sequences are matched to structures by string matching, the sequence of a PDB file is taken from CA ATOM records.
 Structures which do not match the MSA are ignored. Sequences in the MSA which do not match a structure are reported, then ignored.
 
-# lrmsd
+# LRMSD
   homstrad 690 pairwise structural alignments:
 
   usalign.stats:AVERAGE	avg_LDDT=0.8123	avg_LRMSD=1.0451
