@@ -5,15 +5,15 @@ Sequences are matched to structures by string matching, the sequence of a PDB fi
 Structures which do not match the MSA are ignored. Sequences in the MSA which do not match a structure are reported, then ignored.
 
 # LRMSD
-  homstrad 690 pairwise structural alignments: (Angstroms)
+  homstrad 690 pairwise structural alignments stats: 
 
-  usalign.stats:AVERAGE	avg_LDDT=0.8123	avg_LRMSD=1.0451
+  usalign.stats:AVERAGE	avg_LDDT=0.8123	avg_LRMSD=1.0451A
   
-  masoni.stats:AVERAGE	avg_LDDT=0.8083	avg_LRMSD=1.1237
+  foldmason.stats:AVERAGE	avg_LDDT=0.8083	avg_LRMSD=1.1237A
   
-  ref.stats:AVERAGE	avg_LDDT=0.8087	avg_LRMSD=1.1567
+  reference.stats:AVERAGE	avg_LDDT=0.8087	avg_LRMSD=1.1567A
   
-  mega.stats:AVERAGE	avg_LDDT=0.7920	avg_LRMSD=1.3453
+  muscle-3d.stats:AVERAGE	avg_LDDT=0.7920	avg_LRMSD=1.3453A
   
 ## Usage 
 
