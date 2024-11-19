@@ -377,10 +377,10 @@ class MSTAScorer:
 				structure2_rotated = np.dot(xyz2c, rotation_matrix)
 				rmsd = self.calculate_rmsd(xyz1c,structure2_rotated)
 				total += rmsd
-				print(f"{rmsd:5f} ",end="")
+#				print(f"{rmsd:5f} ",end="")
 				nr_cols_considered += 1
-			else:
-				print(f"{0.0:5f} ",end="")
+#			else:
+#				print(f"{0.0:5f} ",end="")
 		print()
 		return  total/nr_cols_considered
 
