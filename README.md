@@ -5,7 +5,7 @@ Sequences are matched to structures by string matching, the sequence of a PDB fi
 Structures which do not match the MSA are ignored. Sequences in the MSA which do not match a structure are reported, then ignored.
 
 # LRMSD
-  homstrad 690 pairwise structural alignments:
+  homstrad 690 pairwise structural alignments: (Angstroms)
 
   usalign.stats:AVERAGE	avg_LDDT=0.8123	avg_LRMSD=1.0451
   
